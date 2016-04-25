@@ -9,13 +9,13 @@ public class Main {
 		frame.setSize(400, 650);
 		frame.getContentPane().setLayout(new BorderLayout());
 
-		SpaceShip v = new SpaceShip(180, 550, 30, 30); //สร้างผู้เล่น ส่วนที่เขียนเพิ่มจากไฟล์ #1 Main
+		SpaceShip v = new SpaceShip(180, 550, 30, 30); //สร้างผู้เล่น ส่วนที่เขียนเพิ่ม
 		GamePanel gp = new GamePanel();//gui ของเกมส์ทั้งหมด เช่น สีพื้นหลัง สีอักษรแสดงคะแนน
-		GameEngine engine = new GameEngine(gp, v); //ใส่รายละเอียดของเกมส์ทั้งหมด ส่วนที่เขียนเพิ่มจากไฟล์ #1 Main
-		frame.addKeyListener(engine); //ส่วนที่เขียนเพิ่มจากไฟล์ #1 Main
+		GameEngine engine = new GameEngine(gp, v); //ใส่รายละเอียดของเกมส์ทั้งหมด ส่วนที่เขียนเพิ่ม
+		frame.addKeyListener(engine); //ส่วนที่เขียนเพิ่ม
 		frame.getContentPane().add(gp, BorderLayout.CENTER);
 		frame.setVisible(true);
 		
-		engine.start();//ส่วนที่เขียนเพิ่มจากไฟล์ #1 Main
+		engine.start();//ส่วนที่เขียนเพิ่ม
 	}
 }
