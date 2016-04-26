@@ -1,4 +1,4 @@
-package com.spaceship;
+package com;
 
 import java.awt.Color;
 import java.awt.Graphics;
